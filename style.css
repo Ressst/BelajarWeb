@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UNTUK MENGHILNGKAN GARIS BAWAH LINK YANG DITUJU */
+
+a{
+    text-decoration: none;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    gap: 30px;
+}
+
+h1 {
+    padding: 20px;
+}
+
+/* TOMBOL */
+
+.tb-biru {
+    border: solid 2px rgb(0, 110, 255);
+    background-color: rgb(114, 167, 220);
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: rgb(0, 110, 255);
+    transition: 300ms;
+}
+
+.tb-biru:hover{
+    background-color: rgb(0, 110, 255);
+    color: white;
+
+}
+
+/* margin */
+
+.m-1{
+    margin: 10px;
+}
+
+.m-2{
+    margin: 20px;
+}
+
+/* padding */
+
+.p-1{
+    padding: 10px;
+}
+
+.p-2{
+    padding: 20px;
+}
